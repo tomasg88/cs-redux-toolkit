@@ -1,4 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-column: 2;
+}
+
+.user-container {
+  background-color: #c8c8c8;
+  border-radius: 4px;
+  margin-top: 16px;
+  padding: 2rem;
 }
